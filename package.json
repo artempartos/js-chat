@@ -1,0 +1,37 @@
+{
+  "name": "js-chat",
+  "version": "0.0.0",
+  "main": "lib/js-chat.js",
+  "description": "Simple chat node js server",
+  "homepage": "https://github.com/Partos/js-chat",
+  "bugs": "https://github.com/Partos/js-chat/issues",
+  "author": {
+    "name": "Artem",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Partos/js-chat"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+
+  "dependencies": {
+    "socket.io": "~0.9.15",
+    "jquery": "~1.11.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
