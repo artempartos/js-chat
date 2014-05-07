@@ -22,8 +22,9 @@
   "dependencies": {
     "jquery": "latest",
     "socket.io": "latest",
+    "consolidate": "latest",
     "express": "latest",
-    "jade": "latest"
+    "hamljs": "latest"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",

@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %title= "Real time web chat"
+    %link{rel: "stylesheet", type: "text/css", href: "css/main.css"}
+    %link{rel: "stylesheet", type: "text/css", href: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"}
+
+    %script{src: 'http://code.jquery.com/jquery-latest.min.js'}
+    %script{src: '/socket.io/socket.io.js'}
+    %script{src: '/front.js'}
+    %script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"}
+
+  .jumbotron
+    %h1 My simple chat
+  %body
+    .row
+      .col-md-1
+      .col-md-10
+        #content
+    .row
+      .form-horizontal
+        .col-md-1
+        .col-md-9
+          %input.form-control#field{type: "text"}
+        .col-md-1
+          %input.btn.btn-primary#send{type:'button', value: 'send'}
