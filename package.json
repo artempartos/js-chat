@@ -20,8 +20,10 @@
   "keywords": [],
 
   "dependencies": {
-    "socket.io": "~0.9.15",
-    "jquery": "~1.11.0"
+    "jquery": "latest",
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",
