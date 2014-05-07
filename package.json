@@ -24,7 +24,9 @@
     "socket.io": "latest",
     "consolidate": "latest",
     "express": "latest",
-    "hamljs": "latest"
+    "hamljs": "latest",
+    "node-uuid": "latest",
+    "chance": "latest"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",

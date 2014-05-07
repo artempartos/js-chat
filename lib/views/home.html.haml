@@ -7,20 +7,20 @@
 
     %script{src: 'http://code.jquery.com/jquery-latest.min.js'}
     %script{src: '/socket.io/socket.io.js'}
-    %script{src: '/front.js'}
     %script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"}
+    %script{src: 'js/home.js'}
 
   .jumbotron
     %h1 My simple chat
+    .form-horizontal
+      %input.form-control#login{type:'text', placeholder: "Login as", required: ''}
+      %input.btn.btn-primary#create{type:'button', value: 'Create Room'}
+
+  .alert.alert-danger#login_alert.hidden
+    You are not enter your login
   %body
     .row
       .col-md-1
-      .col-md-10
-        #content
-    .row
-      .form-horizontal
-        .col-md-1
-        .col-md-9
-          %input.form-control#field{type: "text"}
-        .col-md-1
-          %input.btn.btn-primary#send{type:'button', value: 'send'}
+      .well.col-md-10
+        %h1 Rooms:
+        #rooms
