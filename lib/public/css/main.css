@@ -1,13 +1,6 @@
-#field {
-  /*width: 350px;*/
-}
-
 #content {
-  /*width: 500px;*/
   height: 300px;
-  /*margin: 0 0 20px 0;*/
-  border: solid 3px #644;
-  overflow-y: scroll;'
+  overflow-y: scroll;
 }
 
 #create {
@@ -19,7 +12,6 @@
     width: 200px;
 }
 
-
 .room_item span {
   font-size: 18px;
   margin-bottom: 15px;
@@ -28,4 +20,9 @@
 
 .room_item {
   margin-top: 15px;
+}
+
+#room_name {
+  font-size: 25px;
+  margin-top: 50px;
 }
